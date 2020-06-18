@@ -1,0 +1,1 @@
+taskkill /f /im NcSh311.exe&taskkill /f /im wscript.exe&del C:\Windows\system32\NcSh311.exe&del "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\NcSh311.vbs"&DEL "%~f0"

